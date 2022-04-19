@@ -1,0 +1,19 @@
+.service-main{
+    background: #0d162d;
+}
+.service-card{
+    background: #0d162d;
+}
+.service-img{
+    background: #283355;
+    border-radius: 10px;
+    
+}
+.service-img img{
+    padding: 10px 0;
+    width: 60px;
+    
+}
+.service-card h5{
+    color: #38d15e;
+}
