@@ -7,6 +7,7 @@ import {
 import NavTop from './Pages/Shared/NavTop/NavTop';
 import Home from './Pages/Home/Home/Home';
 import Navigation from './Pages/Shared/Navigation/Navigation';
+import Footer from './Pages/Shared/Footer/Footer';
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
           <Route path="home" element={<Home />}>
           </Route>
         </Routes>
-
+        <Footer/>
       </BrowserRouter>
     </div>
   );

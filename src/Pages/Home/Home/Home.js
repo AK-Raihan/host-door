@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
+import Faq from '../Faq/Faq';
 import Feature from '../Feature/Feature';
 import Launch from '../Launch/Launch';
 import Pricing from '../Pricing/Pricing';
@@ -13,6 +14,7 @@ const Home = () => {
             <Services/>
             <Pricing/>
             <Launch/>
+            <Faq/>
         </div>
     );
 };
