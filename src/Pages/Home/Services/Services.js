@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button, Card, CardGroup, Container } from 'react-bootstrap';
 import './Services.css'
 import service1 from '../../../images/service (1).png'
 import service2 from '../../../images/service (2).png'
@@ -7,6 +6,7 @@ import service3 from '../../../images/service (3).png'
 import service4 from '../../../images/service (4).png'
 import service5 from '../../../images/service (5).png'
 import service6 from '../../../images/service (6).png'
+import { Container } from 'react-bootstrap';
 
 
 
