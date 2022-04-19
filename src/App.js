@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import NavTop from './Pages/Shared/NavTop/NavTop';
 import Home from './Pages/Home/Home/Home';
+import Navigation from './Pages/Shared/Navigation/Navigation';
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <NavTop/>
-
+      <Navigation/>
         <Routes>
           <Route path="/" element={<Home />}>
           </Route>
