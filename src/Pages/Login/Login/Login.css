@@ -1,0 +1,24 @@
+
+
+.social-media{
+    
+}
+.social-media h2{
+    font-size: 40px;
+
+}
+.social-media ul{
+    display: flex;
+    justify-content: center;
+
+}
+.social-media ul li{
+    list-style: none;
+    font-size: 50px;
+    cursor: pointer;
+    padding: 5px 20px;
+    transition: .6s;
+}
+.social-media ul li:hover{
+    color: #38b6ff;
+}

@@ -1,8 +1,12 @@
 import React from 'react';
 import './NavTop.css'
 import { Button, Col, Container, Row } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
+import userEvent from '@testing-library/user-event';
+import useAuth from './../../../hooks/useAuth';
 
 const NavTop = () => {
+    const {user, logout}=useAuth()
     return (
         <div className='navtop-main'>
             <Container>
@@ -24,8 +28,12 @@ const NavTop = () => {
                     <Col lg={4} md={12}>
                     <div className="login d-flex justify-content-center align-items-center">
                         <span className='fs-3 text-white '><i className="fas fa-cart-arrow-down"></i></span>
-                        <Button className='px-5 mx-2'>Login</Button>
-                        <Button className='px-5'>Sign Up</Button>
+                        {
+                            user.email ? <button onClick={logout}>Logout</button>:<NavLink to="/login">
+                            <Button className='px-5 mx-2'>Login</Button>
+                            </NavLink>
+                        }
+                        
                     </div>
                     </Col>
                 </Row>
