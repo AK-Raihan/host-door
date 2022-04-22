@@ -1,0 +1,35 @@
+
+
+[
+    {
+      "code": 4126,
+      "name": "Shared Hosting ",
+      "price": "$18.19",
+      "free" : "Web Hosting With Free Domain",
+      "disk" : "250GB SSD",
+      "data" : "1TB BANDWIDTH",
+      "email" : "120 EMAIL",
+      "uplink" : "1Gbps - 20TB"
+    },
+    {
+      "code": 4127,
+      "name": "Dedicated Server",
+      "price": "$20.50",
+      "free" : "Web Hosting With paid Domain",
+      "disk" : "500GB SSD",
+      "data" : "2TB BANDWIDTH",
+      "email" : "1000 EMAIL",
+      "uplink" : "2Gbps - 20TB"
+    },
+    {
+      "code": 4128,
+      "name": "Grid Hosting",
+      "price": "$25.00",
+      "free" : "Web Hosting With Free Domain",
+      "disk" : "200GB SSD",
+      "data" : "2TB BANDWIDTH",
+      "email" : "150 EMAIL",
+      "uplink" : "1Gbps - 25TB"
+    }
+
+]
