@@ -1,6 +1,5 @@
 import React, { useState, useEffect} from 'react';
 import Price from './Price/Price';
-import './Pricing.css'
 
 
 const Pricing = () => {

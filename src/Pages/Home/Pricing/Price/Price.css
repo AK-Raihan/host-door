@@ -1,0 +1,34 @@
+.pricing-main{
+    background: #1e2947;
+}
+.pricing-card{
+    background: linear-gradient(#0d121f,#4777fc);
+    transition: .7s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.pricing-card:hover .pricing-header{
+    background: #0d162d;
+}
+
+.card-icon i{
+    font-size: 50px;
+    color: aqua;
+}
+
+.option-icon i{
+    font-size: 35px;
+}
+
+
+.order-btn{
+    color: #fff;
+    background: rgb(41, 75, 138);
+    padding: 10px 30px;
+}
+.pricing-card:hover .order-btn{
+    background: #0d162d;
+}
+.order-btn:hover{
+    color: #fff;
+    background: #37d3d3 !important;
+}

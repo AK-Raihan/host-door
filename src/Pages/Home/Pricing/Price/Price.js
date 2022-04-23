@@ -1,7 +1,9 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+import './Price.css'
 
 const Price = (props) => {
-    const {name, price, free, disk, data, email, uplink} = props.price
+    const {_id, name, price, free, disk, data, email, uplink} = props.price
     return (
         <div className="col" data-aos="fade-right"
                         data-aos-easing="linear"
@@ -59,8 +61,11 @@ const Price = (props) => {
                             
                         </ul>
                     </div>
-                    <div className="pricing-btn py-3">
+                    <div className="pricing-btn text-center py-3">
+                    <NavLink to={`/booking/${_id}`}>
                     <button className='btn order-btn'>Order Now</button>
+                    </NavLink>
+                    
                     </div>
                 </div>
             </div>

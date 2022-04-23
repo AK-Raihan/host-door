@@ -29,7 +29,10 @@ const NavTop = () => {
                     <div className="login d-flex justify-content-center align-items-center">
                         <span className='fs-3 text-white '><i className="fas fa-cart-arrow-down"></i></span>
                         {
-                            user.email ? <button onClick={logout}>Logout</button>:<NavLink to="/login">
+                            user.email ? <div>
+                                <button onClick={logout}>Logout</button>
+                                <NavLink to="/dashboard">Dashboard</NavLink>
+                            </div>:<NavLink to="/login">
                             <Button className='px-5 mx-2'>Login</Button>
                             </NavLink>
                         }
